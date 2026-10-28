@@ -22,7 +22,7 @@ Status: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - [ ] Projeto em destaque de simulação (CAE) com resultados e validação
 
 ## Fase 4 — Publicação
-- [ ] Ativar GitHub Pages (pasta `site/`, via GitHub Actions)
+- [~] Ativar GitHub Pages (workflow `.github/workflows/pages.yml` criado; falta o dono tornar o repositório público e escolher Settings → Pages → Source: GitHub Actions)
 - [ ] Domínio próprio (opcional) e HTTPS
 - [ ] SEO básico: título, descrição, Open Graph, favicon
 - [ ] Revisão de acessibilidade e desempenho (Lighthouse)
@@ -39,4 +39,4 @@ Status: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - Capa do exemplo e hero são SVG cinza (WebP só quando houver fotos reais).
 - Visualizador STL usa three.js 0.160.0 via importmap; model-viewer 3.5.0 não foi exercitado (sem .glb de teste).
 - Contato: e-mail institucional e links do LinkedIn e do GitHub estão públicos em `site/data/site.json` com aprovação do dono; GitHub (`flaviocoding22`) assumido pelo dono da sessão, confirmar.
-- Gerente de suspensão: ainda é o cargo atual ou já terminou? Ajustar `about` e o período em `cv`.
+- Currículo e competências preenchidos a partir do LinkedIn (prints do dono). Faltam foto, PDF e previsão de formatura.

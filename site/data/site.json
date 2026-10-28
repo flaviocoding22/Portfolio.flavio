@@ -12,29 +12,39 @@
   },
 
   "about": [
-    "Estudante de Engenharia Mecânica na EESC-USP, com interesse em P&D e CAE: simulação, vibrações e modelagem computacional.",
-    "Gerente de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.",
-    "[PREENCHER: interesses, objetivos e o que você está construindo agora]"
+    "Graduando em Engenharia Mecânica na EESC-USP, em São Carlos. Meus interesses são P&D e simulação numérica (CAE), com Python como ferramenta de trabalho.",
+    "Desde agosto de 2026, sou gerente de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.",
+    "[PREENCHER: o que você está construindo agora e o que busca (iniciação científica, estágio, startup)]"
   ],
 
   "cv": [
     {
-      "when": "[PREENCHER: período]",
-      "title": "Gerente de suspensão — Equipe Tupã (Fórmula SAE), EESC-USP",
-      "text": "[PREENCHER: atividades e resultados]",
+      "when": "ago. 2026 – atual",
+      "title": "Gerente de Suspensão — Equipe Tupã (Fórmula SAE), EESC-USP",
+      "text": "São Carlos, SP. Ferramentas: Autodesk Fusion 360, Ansys, MATLAB e Simulink. [PREENCHER: atividades e resultados]",
       "logo": "assets/img/logo-tupa.webp",
       "logoAlt": "Logo da equipe Tupã, EESC-USP",
       "link": { "label": "Ver projeto", "url": "project.html?p=suspensao-tupa" }
     },
     {
-      "when": "[PREENCHER: período]",
+      "when": "2026 – atual",
       "title": "Engenharia Mecânica — EESC-USP",
-      "text": "[PREENCHER: previsão de formatura]"
+      "text": "Escola de Engenharia de São Carlos, Universidade de São Paulo. [PREENCHER: previsão de formatura]"
     },
     {
-      "when": "",
-      "title": "Competências",
-      "text": "[PREENCHER: softwares (CAD, FEA), linguagens e idiomas]"
+      "when": "Cursos",
+      "title": "Formação complementar",
+      "text": "Applied Suspension Geometry Design · Motorsport Data Analysis"
+    },
+    {
+      "when": "Competências",
+      "title": "Ferramentas e habilidades",
+      "text": "Ansys · Autodesk Fusion 360 · Solid Edge · MATLAB · Simulink · Python · Git · Gestão de projetos · Trabalho em equipe"
+    },
+    {
+      "when": "Idiomas",
+      "title": "Inglês",
+      "text": "Nível avançado"
     }
   ],
 
