@@ -40,5 +40,5 @@ Status: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - Visualizador STL usa three.js 0.160.0 via importmap; model-viewer 3.5.0 não foi exercitado (sem .glb de teste).
 - Contato: e-mail institucional e links do LinkedIn e do GitHub estão públicos em `site/data/site.json` com aprovação do dono; GitHub (`flaviocoding22`) assumido pelo dono da sessão, confirmar.
 - Currículo e competências preenchidos a partir do LinkedIn (prints do dono). Faltam foto, PDF e previsão de formatura.
-- Pêndulo: prints geradas offscreen com a fonte padrão do Matplotlib; trocar por capturas da janela real (Windows) quando possível. Perguntar ao dono o que significa "trabalho do Leopoldo" no README antes de citar na página.
-- GeoLinkage: link do jogo (github.io/GeoLinkage) respondeu 200 em teste; conferir se o dono quer destacar o jogo ou deixá-lo em segundo plano.
+- Pêndulo: prints geradas offscreen com a fonte padrão do Matplotlib; trocar por capturas da janela real (Windows) quando possível. A página cita que foi trabalho proposto pelo professor Leopoldo (informado pelo dono).
+- GeoLinkage: link do jogo (github.io/GeoLinkage) respondeu 200 em teste; jogo posicionado depois da suspensão Tupã, a pedido do dono. Prints geradas jogando o código headless.

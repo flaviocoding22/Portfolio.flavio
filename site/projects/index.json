@@ -1,3 +1,8 @@
 {
-  "projects": ["pendulo-simples", "geolinkage", "suspensao-tupa", "exemplo-viga"]
+  "projects": [
+    "pendulo-simples",
+    "suspensao-tupa",
+    "geolinkage",
+    "exemplo-viga"
+  ]
 }

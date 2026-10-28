@@ -4,12 +4,35 @@
   "year": 2026,
   "tags": ["HTML", "JavaScript", "Mecanismos", "Cinemática", "Jogo"],
   "cover": "cover.webp",
-  "description": "Jogo de síntese de curva com mecanismo de 4 barras. O jogador ajusta os comprimentos da manivela, do acoplador e do seguidor, e a posição do ponto traçador, até o traço do mecanismo cobrir uma curva fantasma. Pequenas mudanças de comprimento mudam a curva inteira, e é isso que o jogo ensina. Uma barra de encaixe mostra, em pixels, o quanto a curva ainda está longe do alvo. A primeira fase tem a curva em formato de feijão, e o jogo tem 3 fases.\n\nÉ um projeto de aprendizado: foi a forma de aprender HTML, com o front end desenvolvido com ajuda do Claude. Está publicado no GitHub Pages e roda direto no navegador.",
+  "description": "Jogo de síntese de curva com mecanismo de 4 barras. O jogador ajusta o comprimento da manivela, do acoplador e do seguidor, e a posição do ponto traçador (avanço e lateral), até a curva desenhada pelo mecanismo cobrir uma curva-alvo tracejada. Pequenas mudanças de comprimento mudam a curva inteira, e é isso que o jogo ensina.\n\nComo funciona: a cinemática é resolvida pela interseção de dois círculos (acoplador e seguidor) a cada ângulo da manivela, de 0 a 360° em passos de 2°. O encaixe é a distância média, nos dois sentidos, entre a curva traçada e a curva-alvo, mostrada em pixels; abaixo de 15 px a fase está concluída. São 3 fases: 'Formato de feijão', 'Asa fina' e 'Desvie da zona proibida', em que a curva também não pode cruzar uma zona circular.\n\nÉ um projeto de aprendizado: foi a forma de aprender HTML, com o front end desenvolvido com ajuda do Claude. Roda direto no navegador, publicado no GitHub Pages.",
+  "code": [
+    { "file": "code/cinematica.js", "language": "javascript", "caption": "Fases, cinemática do mecanismo e pontuação do encaixe" }
+  ],
   "images": [
     {
-      "file": "images/jogo.webp",
-      "title": "Fase 1: formato de feijão",
-      "caption": "Mecanismo de 4 barras com a curva traçada em laranja e o alvo tracejado. Os sliders ajustam manivela, acoplador, seguidor e a posição do ponto traçador; o encaixe está em 35 px."
+      "file": "images/fase1-ajuste.webp",
+      "title": "Fase 1: ajustando os elos",
+      "caption": "Manivela 80, acoplador 250, seguidor 200: o encaixe está em 35 px e o jogo avisa que está quase encaixando."
+    },
+    {
+      "file": "images/fase1-encaixe.webp",
+      "title": "Fase 1: encaixe travado",
+      "caption": "Com os comprimentos certos a curva laranja cobre o alvo (0 px), a barra fica verde e aparece o botão para a próxima fase."
+    },
+    {
+      "file": "images/fase2-asa-fina.webp",
+      "title": "Fase 2: asa fina",
+      "caption": "A curva-alvo, tracejada, está longe do traço atual (223 px). O desafio é achar uma combinação de elos bem diferente da fase anterior."
+    },
+    {
+      "file": "images/fase3-zona-proibida.webp",
+      "title": "Fase 3: zona proibida",
+      "caption": "Além de cobrir o alvo, a curva não pode passar pelo círculo vermelho."
+    },
+    {
+      "file": "images/fase3-concluida.webp",
+      "title": "Todas as fases concluídas",
+      "caption": "A curva cobre o alvo e desvia da zona proibida."
     }
   ],
   "links": [

@@ -33,8 +33,7 @@ figcaption{font-size:.8rem;color:var(--muted);padding-top:8px}
 .muted{color:var(--muted)}
 .grid{display:grid;grid-template-columns:1fr;gap:24px}
 .card{display:block;text-decoration:none;border-top:1px solid var(--ink);padding-top:12px}
-.card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#ddd;filter:grayscale(1);transition:filter .2s}
-.card:hover img,.card:focus-visible img{filter:none}
+.card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#ddd}
 .card h3{font:800 1.25rem/1.2 Syne,sans-serif;text-transform:uppercase;margin:14px 0 6px}
 .card p{margin:0 0 8px;color:var(--muted);font-size:.95rem}
 .tags{list-style:none;display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0}
@@ -67,7 +66,7 @@ pre code.hljs{padding:16px;font:.85rem/1.5 ui-monospace,Menlo,Consolas,monospace
   .cv li{grid-template-columns:180px 1fr;gap:24px}
 }
 @media (min-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}.block{grid-template-columns:300px 1fr}}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card img{transition:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* logos e imagens dinâmicas */
 .hero-img img{display:block;width:100%;height:clamp(260px,42vw,640px);object-fit:cover}
 .cv-item{display:flex;gap:16px;align-items:flex-start}
