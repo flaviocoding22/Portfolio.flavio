@@ -1,0 +1,20 @@
+{
+  "title": "[EXEMPLO] Viga em balanço com furos",
+  "summary": "[EXEMPLO] Projeto fictício que demonstra o formato de página: modelo 3D, código e galeria.",
+  "year": 2026,
+  "tags": ["EXEMPLO", "CAE", "Python", "Vigas"],
+  "cover": "images/capa.svg",
+  "description": "[EXEMPLO] Este projeto é apenas uma demonstração do formato do site; os dados são fictícios.\n\nA geometria é uma viga em balanço de 200 x 20 x 10 mm com três furos quadrados de alívio, gerada por script. O código de exemplo calcula a deflexão da ponta e a primeira frequência natural pela teoria de Euler-Bernoulli.\n\nResultados reais, método e aprendizados: [PREENCHER: substituir por um projeto verdadeiro].",
+  "models": [
+    { "file": "model/viga.stl", "caption": "[EXEMPLO] Viga em balanço com furos de alívio (STL, 200 x 20 x 10 mm)" }
+  ],
+  "code": [
+    { "file": "code/viga.py", "language": "python", "caption": "[EXEMPLO] Solver analítico de viga em balanço (Euler-Bernoulli)" }
+  ],
+  "images": [
+    { "file": "images/capa.svg", "caption": "[EXEMPLO] Imagem de espaço reservado; substituir por mapa de tensão real." }
+  ],
+  "links": [
+    { "label": "[PREENCHER: link do repositório]", "url": "https://github.com/" }
+  ]
+}
