@@ -1,21 +1,21 @@
 {
-  "title": "Suspensão — Equipe Tupã (Fórmula SAE)",
-  "summary": "[PREENCHER: uma frase sobre o projeto de suspensão]",
-  "tags": ["Fórmula SAE", "Suspensão", "CAD", "CAE"],
+  "title": "Equipe Tupã — Suspensão",
+  "summary": "Gerência do subsistema de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.",
+  "tags": ["Fórmula SAE", "Suspensão", "Gestão de projetos", "CAD", "CAE"],
   "cover": "cover.webp",
   "logo": "logo.webp",
   "logoAlt": "Logo da equipe Tupã, EESC-USP",
-  "description": "Gerência do subsistema de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.\n\n[PREENCHER: contexto, tipo de suspensão, requisitos e decisões de projeto]\n\n[PREENCHER: método — cinemática, cargas, análise estrutural (FEA), resultados]\n\n[PREENCHER: o que você aprendeu e o que mudaria]",
+  "description": "Desde agosto de 2026, sou gerente de suspensão da equipe Tupã de Fórmula SAE da EESC-USP, em São Carlos. O trabalho usa Autodesk Fusion 360, Ansys, MATLAB e Simulink.\n\nO carro novo está em fase de projeto, então esta página não mostra CAD nem simulações do projeto em andamento. As fotos abaixo são do carro anterior da equipe, o E5.\n\n[PREENCHER: o que a gerência de suspensão faz na prática, em 2 ou 3 frases que você possa divulgar]\n\n[PREENCHER: o que é a competição Fórmula SAE, em uma frase, para quem não conhece]",
   "images": [
     {
-      "file": "images/placeholder.svg",
-      "title": "[PREENCHER: nome da peça, ex.: Upright dianteiro]",
-      "caption": "[PREENCHER: descrição do print do CAD — o que é, material, massa, decisões principais]"
+      "file": "images/carro-frente.webp",
+      "title": "Carro anterior da equipe (E5)",
+      "caption": "Frente do carro, com a suspensão dianteira à mostra. Foto: [PREENCHER: crédito]"
     },
     {
-      "file": "images/placeholder.svg",
-      "title": "[PREENCHER: nome da peça, ex.: Balança]",
-      "caption": "[PREENCHER: descrição do print do CAD ou do resultado de simulação]"
+      "file": "images/carro-pista.webp",
+      "title": "Teste em pista",
+      "caption": "O mesmo carro durante um teste noturno entre cones. Foto: [PREENCHER: crédito]"
     }
   ],
   "links": []
