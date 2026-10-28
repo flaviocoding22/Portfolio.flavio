@@ -26,11 +26,20 @@
   getJSON('data/site.json').then(function (s) {
     var nome = s.fullName || s.name || '';
     document.title = nome + ' — Engenharia Mecânica, CAE e Vibrações';
-    document.getElementById('titulo').textContent = s.name || nome;
+    var partes = nome.split(' ');
+    var primeiro = s.name || partes[0] || '';
+    var resto = nome.indexOf(primeiro) === 0 ? nome.slice(primeiro.length).trim() : partes.slice(1).join(' ');
+    document.getElementById('nome-primeiro').textContent = primeiro;
+    document.getElementById('nome-resto').textContent = resto;
+    if (s.eyebrow) document.getElementById('eyebrow').textContent = s.eyebrow;
     document.getElementById('tagline').textContent = s.tagline || '';
     document.getElementById('nome-rodape').textContent = nome;
 
     var hero = s.hero || {};
+    var layout = (new URLSearchParams(location.search).get('layout') || hero.layout || 'a').toLowerCase();
+    if (!/^[abc]$/.test(layout)) layout = 'a';
+    document.querySelector('.hero').className = 'hero hero--' + layout;
+    document.body.classList.toggle('hero-b', layout === 'b');
     document.getElementById('hero-legenda').textContent = hero.caption || '';
     if (hero.image) {
       var img = el('img');

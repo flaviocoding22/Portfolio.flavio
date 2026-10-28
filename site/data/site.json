@@ -4,8 +4,9 @@
   "fullName": "Flávio Monteiro",
   "tagline": "Engenharia Mecânica · CAE · Simulação · Vibrações",
   "hero": {
-    "image": "assets/img/flavio.webp",
-    "position": "50% 40%",
+    "layout": "a",
+    "image": "assets/img/flavio-hero.webp",
+    "position": "50% 30%",
     "alt": "Flávio Monteiro sorrindo, de camisa polo da equipe Tupã, em frente a uma estrutura vermelha no campus",
     "caption": ""
   },
@@ -67,5 +68,6 @@
       "text": "github.com/flaviocoding22",
       "url": "https://github.com/flaviocoding22"
     }
-  ]
+  ],
+  "eyebrow": "Portfólio de engenharia"
 }
