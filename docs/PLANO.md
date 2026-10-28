@@ -16,9 +16,9 @@ Status: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - [x] Projeto de exemplo com dados fictícios claramente marcados `[EXEMPLO]`
 
 ## Fase 3 — Conteúdo real (depende do dono)
-- [ ] Texto de apresentação e currículo
+- [~] Texto de apresentação e currículo (nome, universidade, e-mail, LinkedIn e GitHub já em `site/data/site.json`; faltam períodos, competências e PDF)
 - [ ] Foto principal em P&B
-- [ ] 3 a 5 projetos reais: código, CADs convertidos, imagens, descrição técnica
+- [~] 3 a 5 projetos reais: prints de CAD com descrição (3D opcional), código, imagens (página `suspensao-tupa` criada com logo da equipe Tupã; faltam prints e textos)
 - [ ] Projeto em destaque de simulação (CAE) com resultados e validação
 
 ## Fase 4 — Publicação
@@ -38,3 +38,5 @@ Status: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - Botão de currículo (PDF) é um placeholder sem link; falta o PDF e a decisão de onde hospedá-lo.
 - Capa do exemplo e hero são SVG cinza (WebP só quando houver fotos reais).
 - Visualizador STL usa three.js 0.160.0 via importmap; model-viewer 3.5.0 não foi exercitado (sem .glb de teste).
+- Contato: e-mail institucional e links do LinkedIn e do GitHub estão públicos em `site/data/site.json` com aprovação do dono; GitHub (`flaviocoding22`) assumido pelo dono da sessão, confirmar.
+- Gerente de suspensão: ainda é o cargo atual ou já terminou? Ajustar `about` e o período em `cv`.

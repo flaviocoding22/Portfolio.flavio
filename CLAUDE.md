@@ -19,7 +19,9 @@ Site estático hospedado no GitHub Pages. Idioma do conteúdo: português (pt-BR
 2. **Conteúdo guiado por dados.** Projetos ficam em `site/projects/<slug>/` com um `project.json`
    (formato em `docs/ADICIONAR_PROJETO.md`). A home lê `site/projects/index.json`. Adicionar um projeto nunca deve
    exigir mexer em HTML.
-3. **Modelos 3D:** o navegador não abre STEP/IGES/SLDPRT. Converter para `.glb` (preferido) ou `.stl`
+   Textos pessoais, contatos e currículo ficam em `site/data/site.json` (guia em `docs/EDITAR_SITE.md`);
+   nunca fixar esse conteúdo em HTML. O dono edita esses arquivos à mão, então manter o JSON simples e comentado em `_ajuda`.
+3. **Modelos 3D (opcionais):** o navegador não abre STEP/IGES/SLDPRT. Converter para `.glb` (preferido) ou `.stl`
    e guardar em `site/projects/<slug>/model/`. Manter cada arquivo abaixo de 25 MB.
 4. **Código:** exibir com destaque de sintaxe a partir de arquivos reais em `site/projects/<slug>/code/`,
    sem colar código dentro de HTML.

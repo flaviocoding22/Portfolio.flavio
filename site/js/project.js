@@ -82,6 +82,12 @@ async function main() {
 
   document.title = p.title + ' — Flávio';
   root.textContent = '';
+  if (p.logo) {
+    const logo = el('img', 'project-logo');
+    logo.src = base + p.logo;
+    logo.alt = p.logoAlt || 'Logo';
+    root.appendChild(logo);
+  }
   root.appendChild(el('h1', 'display project-title', p.title));
   const meta = el('div', 'meta');
   if (p.year) meta.appendChild(el('span', 'year', String(p.year)));
@@ -152,7 +158,13 @@ async function main() {
       img.alt = im.caption || 'Imagem do projeto ' + p.title;
       img.loading = 'lazy';
       fig.appendChild(img);
-      if (im.caption) fig.appendChild(el('figcaption', null, im.caption));
+      if (im.title || im.caption) {
+        const cap = el('figcaption');
+        if (im.title) cap.appendChild(el('strong', null, im.title));
+        if (im.title && im.caption) cap.appendChild(document.createElement('br'));
+        if (im.caption) cap.appendChild(document.createTextNode(im.caption));
+        fig.appendChild(cap);
+      }
       g.appendChild(fig);
     });
     s.appendChild(g);

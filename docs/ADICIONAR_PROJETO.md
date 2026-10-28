@@ -39,6 +39,24 @@ site/projects/<slug>/
 
 4. Acrescente o slug em `site/projects/index.json` (a ordem do arquivo é a ordem na home).
 
+## Só prints, sem arquivo 3D
+
+O modelo 3D é opcional. Para mostrar um CAD, basta um print (renderização ou captura da tela) e uma
+descrição. Não inclua `models` no `project.json`. Cada imagem aceita um `title` (nome da peça) e uma
+`caption` (descrição):
+
+```json
+"images": [
+  { "file": "images/upright.webp", "title": "Upright dianteiro", "caption": "Alumínio 7075, 410 g. Cargas de curva e frenagem simuladas." }
+]
+```
+
+## Logo no projeto
+
+Para mostrar a logo de uma equipe ou empresa no topo da página, coloque o arquivo na pasta do projeto e
+acrescente `"logo": "logo.webp"` e `"logoAlt": "Logo da equipe ..."` ao `project.json`. A capa do cartão
+na home é o campo `cover`.
+
 ## Convertendo CADs
 
 O navegador não abre STEP, IGES, SLDPRT ou IPT. Exporte ou converta:

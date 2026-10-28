@@ -1,0 +1,22 @@
+{
+  "title": "Suspensão — Equipe Tupã (Fórmula SAE)",
+  "summary": "[PREENCHER: uma frase sobre o projeto de suspensão]",
+  "tags": ["Fórmula SAE", "Suspensão", "CAD", "CAE"],
+  "cover": "cover.webp",
+  "logo": "logo.webp",
+  "logoAlt": "Logo da equipe Tupã, EESC-USP",
+  "description": "Gerência do subsistema de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.\n\n[PREENCHER: contexto, tipo de suspensão, requisitos e decisões de projeto]\n\n[PREENCHER: método — cinemática, cargas, análise estrutural (FEA), resultados]\n\n[PREENCHER: o que você aprendeu e o que mudaria]",
+  "images": [
+    {
+      "file": "images/placeholder.svg",
+      "title": "[PREENCHER: nome da peça, ex.: Upright dianteiro]",
+      "caption": "[PREENCHER: descrição do print do CAD — o que é, material, massa, decisões principais]"
+    },
+    {
+      "file": "images/placeholder.svg",
+      "title": "[PREENCHER: nome da peça, ex.: Balança]",
+      "caption": "[PREENCHER: descrição do print do CAD ou do resultado de simulação]"
+    }
+  ],
+  "links": []
+}

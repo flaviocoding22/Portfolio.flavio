@@ -68,3 +68,8 @@ pre code.hljs{padding:16px;font:.85rem/1.5 ui-monospace,Menlo,Consolas,monospace
 }
 @media (min-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}.block{grid-template-columns:300px 1fr}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card img{transition:none}}
+/* logos e imagens dinâmicas */
+.hero-img img{display:block;width:100%;height:clamp(220px,40vw,560px);object-fit:cover;filter:grayscale(1)}
+.cv-item{display:flex;gap:16px;align-items:flex-start}
+.cv-logo{height:48px;width:auto;flex:none;background:#000}
+.project-logo{display:block;height:clamp(56px,10vw,96px);width:auto;margin:16px 0 8px;background:#000}

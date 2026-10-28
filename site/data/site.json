@@ -1,0 +1,51 @@
+{
+  "_ajuda": "Edite este arquivo para mudar textos, contatos e currículo. Veja docs/EDITAR_SITE.md. Onde estiver [PREENCHER: ...], falta conteúdo seu.",
+
+  "name": "Flávio",
+  "fullName": "Flávio Monteiro",
+  "tagline": "Engenharia Mecânica · CAE · Simulação · Vibrações",
+
+  "hero": {
+    "image": "",
+    "alt": "Foto de Flávio Monteiro",
+    "caption": "[PREENCHER: foto]"
+  },
+
+  "about": [
+    "Estudante de Engenharia Mecânica na EESC-USP, com interesse em P&D e CAE: simulação, vibrações e modelagem computacional.",
+    "Gerente de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.",
+    "[PREENCHER: interesses, objetivos e o que você está construindo agora]"
+  ],
+
+  "cv": [
+    {
+      "when": "[PREENCHER: período]",
+      "title": "Gerente de suspensão — Equipe Tupã (Fórmula SAE), EESC-USP",
+      "text": "[PREENCHER: atividades e resultados]",
+      "logo": "assets/img/logo-tupa.webp",
+      "logoAlt": "Logo da equipe Tupã, EESC-USP",
+      "link": { "label": "Ver projeto", "url": "project.html?p=suspensao-tupa" }
+    },
+    {
+      "when": "[PREENCHER: período]",
+      "title": "Engenharia Mecânica — EESC-USP",
+      "text": "[PREENCHER: previsão de formatura]"
+    },
+    {
+      "when": "",
+      "title": "Competências",
+      "text": "[PREENCHER: softwares (CAD, FEA), linguagens e idiomas]"
+    }
+  ],
+
+  "resume": {
+    "label": "Baixar currículo (PDF)",
+    "url": ""
+  },
+
+  "contact": [
+    { "label": "E-mail", "text": "flaviomonteiro@usp.br", "url": "mailto:flaviomonteiro@usp.br" },
+    { "label": "LinkedIn", "text": "linkedin.com/in/flavio-h-47a6583b3", "url": "https://www.linkedin.com/in/flavio-h-47a6583b3/" },
+    { "label": "GitHub", "text": "github.com/flaviocoding22", "url": "https://github.com/flaviocoding22" }
+  ]
+}
