@@ -37,3 +37,14 @@ e o nome da pasta na lista de `site/projects/index.json` (a ordem do arquivo é 
 
 O fonte do currículo é `docs/curriculo/curriculo.html` e o PDF publicado é `site/assets/curriculo.pdf`.
 Para atualizar, edite o HTML e peça para regenerar o PDF (ou use *Imprimir → Salvar como PDF* no navegador com margens padrão e substitua o arquivo).
+
+## Rascunho e marcadores [PREENCHER]
+
+No site publicado, qualquer texto com `[PREENCHER: ...]` fica escondido automaticamente. Para ver o que ainda
+falta, abra a página com `?rascunho=1` no fim do endereço (ex.: `.../Portfolio.flavio/?rascunho=1`).
+
+## Imagem de compartilhamento (LinkedIn, WhatsApp)
+
+O cartão que aparece ao colar o link é `site/assets/img/og.jpg`, gerado a partir de `docs/og/og.html`.
+Se o endereço do site mudar (domínio próprio), atualize as URLs `og:url` e `og:image` no `<head>` de `site/index.html`
+e `site/project.html`.

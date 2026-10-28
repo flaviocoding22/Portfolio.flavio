@@ -30,7 +30,7 @@ Site estático hospedado no GitHub Pages. Idioma do conteúdo: português (pt-BR
 6. **Acessibilidade e desempenho:** texto alternativo em imagens, contraste suficiente, imagens
    otimizadas (WebP, largura máxima 1600 px), `loading="lazy"`.
 7. **Não inventar conteúdo pessoal.** Nome completo, cargos, datas, resultados e fotos vêm do dono do
-   portfolio. Onde faltar, usar marcadores `[PREENCHER: ...]` visíveis, nunca texto fictício apresentado como real.
+   portfolio. Onde faltar, usar marcadores `[PREENCHER: ...]`, nunca texto fictício apresentado como real. Os marcadores ficam escondidos no site publicado e aparecem com `?rascunho=1`.
 8. **Não copiar** textos, fotos ou marca de outros portfolios. A referência de estilo é só o layout geral.
 9. Nada de dados sensíveis no repositório: sem chaves, sem e-mail pessoal em texto puro (usar formulário
    ou link `mailto:` que o dono aprovar), sem CADs de terceiros ou sob NDA.

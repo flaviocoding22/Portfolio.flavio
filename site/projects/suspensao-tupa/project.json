@@ -1,7 +1,13 @@
 {
   "title": "Equipe Tupã — Suspensão",
   "summary": "Gerência do subsistema de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.",
-  "tags": ["Fórmula SAE", "Suspensão", "Gestão de projetos", "CAD", "CAE"],
+  "tags": [
+    "Fórmula SAE",
+    "Suspensão",
+    "Gestão de projetos",
+    "CAD",
+    "CAE"
+  ],
   "cover": "cover.webp",
   "logo": "logo.webp",
   "logoAlt": "Logo da equipe Tupã, EESC-USP",
@@ -18,5 +24,6 @@
       "caption": "O mesmo carro durante um teste noturno entre cones. Foto: [PREENCHER: crédito]"
     }
   ],
-  "links": []
+  "links": [],
+  "coverPhoto": true
 }

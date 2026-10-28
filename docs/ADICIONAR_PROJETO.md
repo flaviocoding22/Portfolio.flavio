@@ -70,3 +70,8 @@ O navegador não abre STEP, IGES, SLDPRT ou IPT. Exporte ou converta:
 
 Use arquivos reais. Não coloque chaves, senhas nem dados de terceiros. Se o código vem de um
 trabalho da faculdade ou da equipe, confirme que pode ser publicado.
+
+## Capa em preto e branco
+
+Para fotos (carro, equipe, pessoas), acrescente `"coverPhoto": true` ao `project.json`: a capa fica em preto e branco
+e ganha cor ao passar o mouse. Capturas de tela e gráficos ficam sempre em cor.

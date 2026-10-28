@@ -1,4 +1,5 @@
 const root = document.getElementById('conteudo');
+const limpar = window.limpar || ((t) => t);
 document.getElementById('ano').textContent = new Date().getFullYear();
 const slug = new URLSearchParams(location.search).get('p');
 
@@ -80,7 +81,7 @@ async function main() {
   try { p = await getJSON(base + 'project.json'); }
   catch (e) { console.warn(e); return showError('Projeto não encontrado.'); }
 
-  document.title = p.title + ' — Flávio';
+  document.title = limpar(p.title) + ' — Flávio Monteiro';
   root.textContent = '';
   if (p.logo) {
     const logo = el('img', 'project-logo');
@@ -88,7 +89,7 @@ async function main() {
     logo.alt = p.logoAlt || 'Logo';
     root.appendChild(logo);
   }
-  root.appendChild(el('h1', 'display project-title', p.title));
+  root.appendChild(el('h1', 'display project-title', limpar(p.title)));
   const meta = el('div', 'meta');
   if (p.year) meta.appendChild(el('span', 'year', String(p.year)));
   const tags = el('ul', 'tags');
@@ -99,7 +100,7 @@ async function main() {
   if (p.description) {
     const s = section('Descrição', 'h-desc');
     const d = el('div', 'desc');
-    p.description.split(/\n\s*\n/).forEach((par) => d.appendChild(el('p', null, par)));
+    p.description.split(/\n\s*\n/).map(limpar).filter(Boolean).forEach((par) => d.appendChild(el('p', null, par)));
     s.appendChild(d);
   }
 
@@ -111,7 +112,7 @@ async function main() {
       box.setAttribute('role', 'group');
       box.setAttribute('aria-label', 'Visualizador 3D: ' + (m.caption || m.file));
       fig.appendChild(box);
-      if (m.caption) fig.appendChild(el('figcaption', null, m.caption + ' — arraste para girar, role para ampliar.'));
+      if (limpar(m.caption)) fig.appendChild(el('figcaption', null, limpar(m.caption) + ' — arraste para girar, role para ampliar.'));
       s.appendChild(fig);
       const url = base + m.file;
       try {
@@ -134,7 +135,7 @@ async function main() {
       const code = el('code', 'language-' + (c.language || 'plaintext'));
       pre.appendChild(code);
       fig.appendChild(pre);
-      if (c.caption) fig.appendChild(el('figcaption', null, c.caption + ' (' + c.file + ')'));
+      if (limpar(c.caption)) fig.appendChild(el('figcaption', null, limpar(c.caption) + ' (' + c.file + ')'));
       s.appendChild(fig);
       try {
         const r = await fetch(base + c.file);
@@ -155,14 +156,15 @@ async function main() {
       const fig = el('figure', 'item');
       const img = el('img');
       img.src = base + im.file;
-      img.alt = im.caption || 'Imagem do projeto ' + p.title;
+      img.alt = limpar(im.caption || '') || limpar(im.title || '') || 'Imagem do projeto ' + limpar(p.title);
       img.loading = 'lazy';
       fig.appendChild(img);
-      if (im.title || im.caption) {
+      const titulo = limpar(im.title || ''), legenda = limpar(im.caption || '');
+      if (titulo || legenda) {
         const cap = el('figcaption');
-        if (im.title) cap.appendChild(el('strong', null, im.title));
-        if (im.title && im.caption) cap.appendChild(document.createElement('br'));
-        if (im.caption) cap.appendChild(document.createTextNode(im.caption));
+        if (titulo) cap.appendChild(el('strong', null, titulo));
+        if (titulo && legenda) cap.appendChild(document.createElement('br'));
+        if (legenda) cap.appendChild(document.createTextNode(legenda));
         fig.appendChild(cap);
       }
       g.appendChild(fig);
@@ -173,9 +175,9 @@ async function main() {
   if ((p.links || []).length) {
     const s = section('Links', 'h-links');
     const ul = el('ul', 'links');
-    p.links.forEach((l) => {
+    p.links.filter((l) => limpar(l.label)).forEach((l) => {
       const li = el('li');
-      const a = el('a', null, l.label);
+      const a = el('a', null, limpar(l.label));
       a.href = l.url;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';

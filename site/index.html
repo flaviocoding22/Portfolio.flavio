@@ -3,9 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Flávio Monteiro — Engenharia Mecânica, CAE e Vibrações</title>
-<meta name="description" content="Portfolio de engenharia: CAE, simulação e vibrações.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Crect width='8' height='8' fill='%23FF8A00'/%3E%3C/svg%3E">
+<title>Flávio Monteiro — Engenharia Mecânica, CAE e Simulação</title>
+<meta name="description" content="Portfólio de Flávio Monteiro, estudante de Engenharia Mecânica na EESC-USP: simulação, CAE e Python. Projetos, código e currículo.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Flávio Monteiro — Engenharia Mecânica, CAE e Simulação">
+<meta property="og:description" content="Projetos de simulação, código e currículo de um estudante de Engenharia Mecânica da EESC-USP.">
+<meta property="og:url" content="https://flaviocoding22.github.io/Portfolio.flavio/">
+<meta property="og:image" content="https://flaviocoding22.github.io/Portfolio.flavio/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;800&family=Inter:wght@400;500&display=swap">
@@ -24,12 +33,16 @@
   </nav>
 </header>
 <main id="principal">
-  <section class="hero hero--a" aria-labelledby="titulo">
+  <section class="hero" aria-labelledby="titulo">
     <div class="hero-text">
       <p id="eyebrow" class="hero-eyebrow">Portfólio de engenharia</p>
       <h1 id="titulo" class="display"><span id="nome-primeiro">Flávio</span> <span id="nome-resto" class="accent">Monteiro</span></h1>
       <div class="hero-line" aria-hidden="true"></div>
-      <p id="tagline" class="hero-sub">Engenharia Mecânica · CAE · Simulação · Vibrações</p>
+      <p id="tagline" class="hero-sub">Engenharia Mecânica · CAE · Simulação · Python</p>
+      <div class="hero-cta">
+        <a class="btn btn--solid" href="#projetos">Ver projetos</a>
+        <a id="hero-cv" class="btn" href="assets/curriculo.pdf" hidden>Baixar currículo</a>
+      </div>
     </div>
     <figure class="hero-photo">
       <svg id="hero-svg" viewBox="0 0 800 1000" role="img" aria-label="Espaço reservado cinza para a foto principal" preserveAspectRatio="xMidYMid slice">
@@ -51,7 +64,7 @@
     <h2 id="h-cv" class="label">Currículo</h2>
     <div class="content">
       <ul id="cv-lista" class="cv"></ul>
-      <p><a id="cv-pdf" class="btn" href="#contato" aria-disabled="true">Currículo</a></p>
+      <p><a id="cv-pdf" class="btn" href="assets/curriculo.pdf" hidden>Baixar currículo (PDF)</a></p>
     </div>
   </section>
 
@@ -68,6 +81,7 @@
   </section>
 </main>
 <footer class="site-footer"><p>© <span id="ano">2026</span> <span id="nome-rodape">Flávio</span></p></footer>
+<script src="js/rascunho.js"></script>
 <script src="js/home.js"></script>
 </body>
 </html>
