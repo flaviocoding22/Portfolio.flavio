@@ -56,7 +56,7 @@ figure.item{margin:0 0 24px}
 pre{margin:0;overflow:auto;border:1px solid var(--line)}
 pre code.hljs{padding:16px;font:.85rem/1.5 ui-monospace,Menlo,Consolas,monospace}
 .gallery{display:grid;grid-template-columns:1fr;gap:24px}
-.gallery img{display:block;width:100%;height:auto;filter:grayscale(1)}
+.gallery img{display:block;width:100%;height:auto}
 .links{padding-left:20px}
 .error{padding:48px 0}
 @media (min-width:700px){

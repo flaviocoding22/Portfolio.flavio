@@ -1,0 +1,19 @@
+{
+  "title": "GeoLinkage",
+  "summary": "Jogo em HTML de mecanismo de 4 barras: ajuste os elos até a curva traçada cobrir o alvo.",
+  "year": 2026,
+  "tags": ["HTML", "JavaScript", "Mecanismos", "Cinemática", "Jogo"],
+  "cover": "cover.webp",
+  "description": "Jogo de síntese de curva com mecanismo de 4 barras. O jogador ajusta os comprimentos da manivela, do acoplador e do seguidor, e a posição do ponto traçador, até o traço do mecanismo cobrir uma curva fantasma. Pequenas mudanças de comprimento mudam a curva inteira, e é isso que o jogo ensina. Uma barra de encaixe mostra, em pixels, o quanto a curva ainda está longe do alvo. A primeira fase tem a curva em formato de feijão, e o jogo tem 3 fases.\n\nÉ um projeto de aprendizado: foi a forma de aprender HTML, com o front end desenvolvido com ajuda do Claude. Está publicado no GitHub Pages e roda direto no navegador.",
+  "images": [
+    {
+      "file": "images/jogo.webp",
+      "title": "Fase 1: formato de feijão",
+      "caption": "Mecanismo de 4 barras com a curva traçada em laranja e o alvo tracejado. Os sliders ajustam manivela, acoplador, seguidor e a posição do ponto traçador; o encaixe está em 35 px."
+    }
+  ],
+  "links": [
+    { "label": "Jogar no navegador", "url": "https://flaviocoding22.github.io/GeoLinkage/" },
+    { "label": "Código no GitHub (GeoLinkage)", "url": "https://github.com/flaviocoding22/GeoLinkage" }
+  ]
+}

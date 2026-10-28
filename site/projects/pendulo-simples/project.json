@@ -1,0 +1,35 @@
+{
+  "title": "Pêndulo simples interativo",
+  "summary": "Simulação em Python do pêndulo não linear: RK4, período exato, ressonância e caos, em 8 versões.",
+  "tags": ["Python", "NumPy", "Matplotlib", "Simulação", "Dinâmica não linear"],
+  "cover": "cover.webp",
+  "description": "Simulação interativa de um pêndulo simples em Python (NumPy e Matplotlib), construída ao longo de oito versões: da animação estática com gráficos de energia até uma ferramenta de exploração com sliders, atalhos de teclado e várias análises.\n\nMétodo: a equação do pêndulo não linear, com atrito viscoso e força externa opcionais, é integrada por Runge-Kutta de 4ª ordem. O programa mostra três períodos lado a lado: o linear (T0), o exato pela integral elíptica calculada com a média aritmético-geométrica, e o medido direto na trajetória integrada, o que serve como validação do integrador. A 55°, por exemplo, o período exato fica cerca de 6% acima do linear, como aparece no cabeçalho da primeira imagem.\n\nO que dá para explorar: a comparação com a aproximação de pequenas oscilações (o 'fantasma' tracejado), a curva período × amplitude, a curva de ressonância com o pico deslocado pela não linearidade, e, com força externa forte, a seção de Poincaré e o diagrama de bifurcação rumo ao caos. Também exporta PNG e CSV, e a animação usa blitting, que segundo o README dá cerca de 15 vezes mais quadros por segundo.\n\nAs imagens abaixo foram geradas rodando o código sem janela, com a fonte padrão do Matplotlib. Na janela interativa a aparência é um pouco diferente.",
+  "code": [
+    { "file": "code/nucleo_fisico.py", "language": "python", "caption": "Núcleo físico: período exato (AGM), integrador RK4 e período medido" }
+  ],
+  "images": [
+    {
+      "file": "images/principal.webp",
+      "title": "Simulação principal (v8)",
+      "caption": "Pêndulo a 55° com o 'fantasma' linear tracejado sobre a solução real, energia ao longo do tempo e espaço de fases. No cabeçalho: T0 = 2,537 s, T exato = 2,692 s (+6,1%) e T medido = 2,688 s."
+    },
+    {
+      "file": "images/periodo-amplitude.webp",
+      "title": "Período × amplitude",
+      "caption": "A reta do período linear, a curva exata (AGM), que dispara perto de 180°, e pontos medidos por RK4 caindo sobre ela."
+    },
+    {
+      "file": "images/ressonancia.webp",
+      "title": "Curva de ressonância",
+      "caption": "Pêndulo forçado (A = 0,6 rad/s², γ = 0,3 s⁻¹): previsão linear em amarelo e resposta não linear em verde, com o pico deslocado para frequências menores."
+    },
+    {
+      "file": "images/bifurcacao.webp",
+      "title": "Diagrama de bifurcação",
+      "caption": "Varredura da amplitude da força A (L = 3 m, γ = 0,90 s⁻¹, Ω = 1,21 rad/s): regiões periódicas e regiões caóticas."
+    }
+  ],
+  "links": [
+    { "label": "Código no GitHub (mechanics-code)", "url": "https://github.com/flaviocoding22/mechanics-code" }
+  ]
+}
