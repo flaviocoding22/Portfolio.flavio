@@ -26,7 +26,7 @@ Site estático hospedado no GitHub Pages. Idioma do conteúdo: português (pt-BR
 4. **Código:** exibir com destaque de sintaxe a partir de arquivos reais em `site/projects/<slug>/code/`,
    sem colar código dentro de HTML.
 5. **Visual:** fundo branco, tipografia grande em caixa alta, cor de destaque laranja `#FF8A00`,
-   fotos em preto e branco, navegação mínima (Sobre, Currículo, Projetos, Contato). Mobile primeiro.
+   fotos em preto e branco (exceção: a foto principal da home fica em cor, escolha do dono), navegação mínima (Sobre, Currículo, Projetos, Contato). Mobile primeiro.
 6. **Acessibilidade e desempenho:** texto alternativo em imagens, contraste suficiente, imagens
    otimizadas (WebP, largura máxima 1600 px), `loading="lazy"`.
 7. **Não inventar conteúdo pessoal.** Nome completo, cargos, datas, resultados e fotos vêm do dono do

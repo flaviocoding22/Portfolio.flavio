@@ -1,22 +1,19 @@
 {
   "_ajuda": "Edite este arquivo para mudar textos, contatos e currículo. Veja docs/EDITAR_SITE.md. Onde estiver [PREENCHER: ...], falta conteúdo seu.",
-
   "name": "Flávio",
   "fullName": "Flávio Monteiro",
   "tagline": "Engenharia Mecânica · CAE · Simulação · Vibrações",
-
   "hero": {
-    "image": "",
-    "alt": "Foto de Flávio Monteiro",
-    "caption": "[PREENCHER: foto]"
+    "image": "assets/img/flavio.webp",
+    "position": "50% 40%",
+    "alt": "Flávio Monteiro sorrindo, de camisa polo da equipe Tupã, em frente a uma estrutura vermelha no campus",
+    "caption": ""
   },
-
   "about": [
     "Graduando em Engenharia Mecânica na EESC-USP, em São Carlos. Meus interesses são P&D e simulação numérica (CAE), com Python como ferramenta de trabalho.",
-    "Desde agosto de 2026, sou gerente de suspensão da equipe Tupã de Fórmula SAE da EESC-USP.",
+    "Desde agosto de 2026, sou gerente de suspensão da equipe Tupã de Fórmula SAE da EESC-USP. Também me interesso por empreendedorismo e por transformar engenharia em produto.",
     "[PREENCHER: o que você está construindo agora e o que busca (iniciação científica, estágio, startup)]"
   ],
-
   "cv": [
     {
       "when": "ago. 2026 – atual",
@@ -24,12 +21,15 @@
       "text": "São Carlos, SP. Ferramentas: Autodesk Fusion 360, Ansys, MATLAB e Simulink. [PREENCHER: atividades e resultados]",
       "logo": "assets/img/logo-tupa.webp",
       "logoAlt": "Logo da equipe Tupã, EESC-USP",
-      "link": { "label": "Ver projeto", "url": "project.html?p=suspensao-tupa" }
+      "link": {
+        "label": "Ver projeto",
+        "url": "project.html?p=suspensao-tupa"
+      }
     },
     {
-      "when": "2026 – atual",
+      "when": "2026 – previsão 2031",
       "title": "Engenharia Mecânica — EESC-USP",
-      "text": "Escola de Engenharia de São Carlos, Universidade de São Paulo. [PREENCHER: previsão de formatura]"
+      "text": "Escola de Engenharia de São Carlos, Universidade de São Paulo."
     },
     {
       "when": "Cursos",
@@ -47,15 +47,25 @@
       "text": "Nível avançado"
     }
   ],
-
   "resume": {
     "label": "Baixar currículo (PDF)",
-    "url": ""
+    "url": "assets/curriculo.pdf"
   },
-
   "contact": [
-    { "label": "E-mail", "text": "flaviomonteiro@usp.br", "url": "mailto:flaviomonteiro@usp.br" },
-    { "label": "LinkedIn", "text": "linkedin.com/in/flavio-h-47a6583b3", "url": "https://www.linkedin.com/in/flavio-h-47a6583b3/" },
-    { "label": "GitHub", "text": "github.com/flaviocoding22", "url": "https://github.com/flaviocoding22" }
+    {
+      "label": "E-mail",
+      "text": "flaviomonteiro@usp.br",
+      "url": "mailto:flaviomonteiro@usp.br"
+    },
+    {
+      "label": "LinkedIn",
+      "text": "linkedin.com/in/flavio-h-47a6583b3",
+      "url": "https://www.linkedin.com/in/flavio-h-47a6583b3/"
+    },
+    {
+      "label": "GitHub",
+      "text": "github.com/flaviocoding22",
+      "url": "https://github.com/flaviocoding22"
+    }
   ]
 }

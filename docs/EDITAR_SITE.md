@@ -11,7 +11,8 @@ depois do deploy.
 | `name` | Título grande laranja da home |
 | `fullName` | Aba do navegador e rodapé |
 | `tagline` | Linha abaixo do título |
-| `hero.image` | Foto principal (caminho, ex.: `assets/img/foto.webp`). Vazio mostra o espaço cinza |
+| `hero.image` | Foto principal (caminho, ex.: `assets/img/flavio.webp`). Vazio mostra o espaço cinza |
+| `hero.position` | Enquadramento da foto na faixa, ex.: `"50% 40%"` (primeiro número: esquerda-direita; segundo: cima-baixo) |
 | `about` | Parágrafos da seção Sobre (um item = um parágrafo) |
 | `cv` | Linhas do Currículo: `when`, `title`, `text`, e opcionais `logo` e `link` |
 | `resume.url` | Link do PDF do currículo (ex.: `assets/curriculo.pdf`). Vazio mostra o aviso `[PREENCHER]` |
@@ -31,3 +32,8 @@ jsonlint.com para achar o erro.
 
 Veja `docs/ADICIONAR_PROJETO.md`. Resumo: uma pasta em `site/projects/<nome>/` com `project.json`,
 e o nome da pasta na lista de `site/projects/index.json` (a ordem do arquivo é a ordem na home).
+
+## Currículo
+
+O fonte do currículo é `docs/curriculo/curriculo.html` e o PDF publicado é `site/assets/curriculo.pdf`.
+Para atualizar, edite o HTML e peça para regenerar o PDF (ou use *Imprimir → Salvar como PDF* no navegador com margens padrão e substitua o arquivo).

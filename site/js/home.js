@@ -36,6 +36,7 @@
       var img = el('img');
       img.src = hero.image;
       img.alt = hero.alt || '';
+      if (hero.position) img.style.objectPosition = hero.position;
       var svg = document.getElementById('hero-svg');
       svg.replaceWith(img);
     }

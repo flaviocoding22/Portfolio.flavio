@@ -16,8 +16,8 @@ Status: `[ ]` a fazer · `[~]` em andamento · `[x]` feito
 - [x] Projeto de exemplo com dados fictícios claramente marcados `[EXEMPLO]`
 
 ## Fase 3 — Conteúdo real (depende do dono)
-- [~] Texto de apresentação e currículo (nome, universidade, e-mail, LinkedIn e GitHub já em `site/data/site.json`; faltam períodos, competências e PDF)
-- [ ] Foto principal em P&B
+- [~] Texto de apresentação e currículo (currículo em PDF feito; faltam resultados concretos da suspensão e o parágrafo final do Sobre)
+- [x] Foto principal (escolhida pelo dono, em cor)
 - [~] 3 a 5 projetos reais: prints de CAD com descrição (3D opcional), código, imagens (página `suspensao-tupa` criada com logo da equipe Tupã; faltam prints e textos)
 - [ ] Projeto em destaque de simulação (CAE) com resultados e validação
 
